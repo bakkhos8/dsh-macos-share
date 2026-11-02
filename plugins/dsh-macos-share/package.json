@@ -1,0 +1,51 @@
+{
+  "name": "dsh-macos-share",
+  "version": "0.2.0",
+  "description": "macOS share receiver for DeepSeek Harness: files, images, text and links shared from Finder or any app land in the current session draft. Requires the DSHShare.app share target.",
+  "icon": "icon.png",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "icon.png",
+    "AvatarNotice.md",
+    "client.js",
+    "cordis.patch.yml",
+    "index.js",
+    "inbox-lock.js",
+    "native-helper.js",
+    "README.md",
+    "draft-files.js"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "dsh-macos-share",
+    "deepseek-harness",
+    "macos",
+    "share-extension",
+    "share-menu"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/bakkhos8/dsh-macos-share#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bakkhos8/dsh-macos-share.git",
+    "directory": "plugins/dsh-macos-share"
+  },
+  "os": [
+    "darwin"
+  ]
+}
