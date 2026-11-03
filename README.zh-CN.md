@@ -6,6 +6,11 @@ DSH Share 是 macOS 本机分享工具，通过系统共享菜单，将**同一�
 
 [English](README.md) | 简体中文
 
+<p align="center">
+  <img src="docs/promo/animation/dsh-share-promo-loop.gif" alt="在 macOS 共享菜单里把文件分享进 DeepSeek Harness 草稿" width="420" />
+</p>
+
+
 ## 功能
 
 - **Finder：**选中一个或多个普通文件，选择「共享 → DeepSeek Harness」。

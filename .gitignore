@@ -46,3 +46,9 @@ credentials/
 # Icon working area: candidates stay local until one is chosen
 /assets/icon-candidates/*
 !/assets/icon-candidates/README.md
+
+# Promo animation build products (the GIF is committed, the videos are not)
+/docs/promo/animation/*-frames/
+/docs/promo/animation/stills/
+/docs/promo/animation/*.mp4
+__pycache__/

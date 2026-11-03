@@ -6,6 +6,11 @@ DSH Share is a macOS sharing tool that sends files, images, text and links from 
 
 English | [简体中文](README.zh-CN.md)
 
+<p align="center">
+  <img src="docs/promo/animation/dsh-share-promo-loop.gif" alt="Sharing a file into the DeepSeek Harness draft from the macOS Share menu" width="420" />
+</p>
+
+
 ## Features
 
 - **Finder:** select one or more regular files, then choose **Share → DeepSeek Harness**.
